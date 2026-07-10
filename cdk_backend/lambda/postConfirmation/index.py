@@ -50,7 +50,7 @@ def handler(event, context):
 
         # Example logic to assign to AmazonUsers based on email domain
         user_email = event['request']['userAttributes'].get('email', '')
-        if user_email.endswith('@amazon.com'):
+        if user_email.endswith('@ksu.edu'):
             assigned_group = AMAZON_GROUP
         # Example logic to assign to AdminUsers based on a specific condition
         # elif user_email.endswith('@admin.com'):
