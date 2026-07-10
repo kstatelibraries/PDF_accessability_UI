@@ -28,9 +28,9 @@ GROUP_LIMITS = {
     'AmazonUsers': {
         # 'custom:first_sign_in': 'true',
         # 'custom:total_files_uploaded': '0',  # optionally reset
-        'custom:max_files_allowed': '15',
-        'custom:max_pages_allowed': '10',
-        'custom:max_size_allowed_MB': '25'
+        'custom:max_files_allowed': '100',
+        'custom:max_pages_allowed': '200',
+        'custom:max_size_allowed_MB': '250'
     },
     'AdminUsers': {
         # 'custom:first_sign_in': 'true',
